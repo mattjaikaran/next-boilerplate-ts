@@ -1,3 +1,4 @@
+import Providers from '@/components/Provider';
 import SearchInput from '@/components/SearchInput';
 import SSRUserTable from '@/components/tables/SSRUserTable';
 import UserTable from '@/components/tables/UserTable';
@@ -12,7 +13,9 @@ export default async function DashboardTwoPage() {
     <main>
       <h1>Dashboard Two Page</h1>
       {/* <SSRUserTable users={data} /> */}
-      <SearchInput />
+      <Providers>
+        <SearchInput />
+      </Providers>
     </main>
   );
 }
