@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next 13 TypeScript Boilerplate
+
+## Technologies
+
+- NextJS 13.4.8
+- TypeScript 5.1
+- SCSS
+- Using Server and Client Components
+- Redux Toolkit 1.9.5
+- Redux Query
+- Preloaded data client side via Redux
+
+Dev
+
+- Prettier
+- ES Lint
 
 ## Getting Started
 
